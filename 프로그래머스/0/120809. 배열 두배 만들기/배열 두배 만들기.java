@@ -1,10 +1,19 @@
+import java.util.*;
+
+
 class Solution {
     public int[] solution(int[] numbers) {
-        // for문으로 배열을 돌면서 기존 요소에 * 2한 값을 다시 할당
-
-        for(int i = 0; i < numbers.length; i++){
-            numbers[i] *= 2;
+        List<Integer> list = new ArrayList<>();
+        
+        for(int i : numbers){
+            list.add(i * 2);
         }
-        return numbers;
+        
+        int[] arr = new int[list.size()];
+        for(int i = 0; i < list.size(); i++){
+            arr[i] = list.get(i);
+        }
+        
+        return arr;
     }
 }
