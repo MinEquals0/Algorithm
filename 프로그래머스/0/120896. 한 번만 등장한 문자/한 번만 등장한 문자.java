@@ -15,9 +15,9 @@ class Solution {
         }
         char[] arr = s.toCharArray();
         Arrays.sort(arr);
-        String result = new String(arr);
+       
         
-        return result;
+        return new String(arr);
         
         
     }
