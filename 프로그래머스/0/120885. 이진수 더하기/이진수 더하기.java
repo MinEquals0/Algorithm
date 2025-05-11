@@ -2,6 +2,17 @@ import java.util.*;
 
 class Solution {
     public String solution(String bin1, String bin2) {
+        // bin1, bin2를 이진수로 해석하여 십진수로 변환
+        // 두 값을 더함
+        // 그 합을 다시 이진수로 변환하여 결과를 반환
+        
+        // int a = Integer.parseInt(bin1, 2);
+        // int b = Integer.parseInt(bin2, 2);
+
+        // return Integer.toBinaryString(a+b);
+
+
+        
         // 길이 맞추기
         while(bin1.length() < bin2.length()){
             bin1 = "0" + bin1;
