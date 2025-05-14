@@ -19,9 +19,10 @@ class Solution {
                 result -= num;
             }
         }
-        
-        
         return result;
+
+        // 스트림으로 해결
+        // return Arrays.stream(myString.replaceAll("- ", "-").replaceAll("[+] ", "").trim().split(" ")).mapToInt(Integer::parseInt).sum();
         
     }
 }
