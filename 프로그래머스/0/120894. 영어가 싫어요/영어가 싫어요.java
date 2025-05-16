@@ -21,5 +21,12 @@ class Solution {
        long result = Long.parseLong(answer);
        
         return result;
+
+        // for(int i = 0; i < idx.length; i++){
+        //     numbers = numbers.replace(idx[i], String.valueOf(i));
+        // }
+        
+        // long answer = Long.parseLong(numbers);
+        // return answer;
     }
 }
