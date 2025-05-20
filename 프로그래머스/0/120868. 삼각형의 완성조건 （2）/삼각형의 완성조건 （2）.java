@@ -18,5 +18,14 @@ class Solution {
         }
         
         return set.size();
+
+        // 수학적 풀이 방식으로
+        // int answer = 0;
+        // int max = Math.max(sides[0], sides[1]);
+        // int min = Math.min(sides[0], sides[1]);
+
+        // answer += min * 2 - 1;
+
+        // return answer;
     }
 }
