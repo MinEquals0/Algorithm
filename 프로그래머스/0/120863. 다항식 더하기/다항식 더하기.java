@@ -22,13 +22,34 @@ class Solution {
             }
            
         }
-        
+        // 결과값 출력
+        /* if문 이용
         if(xSum == 0){ // x항이 없을 때
             return String.valueOf(numSum);
         } else if (numSum == 0){ // 숫자항이 없을 때
             return xSum == 1 ? "x" : xSum + "x";
         } else {
             return (xSum == 1 ? "x" : xSum + "x") + " + " + numSum;
+        } */
+
+        // StringBuilder를 이용
+        StringBuilder sb = new StringBuilder();
+        
+        if(xSum != 0){
+            if(xSum == 1){
+                sb.append("x");
+            } else {
+                sb.append(xSum).append("x");
+            }
         }
+        
+        if(numSum != 0){
+            if(xSum != 0){
+                sb.append(" + ");
+            } 
+            sb.append(numSum);
+        }
+        
+        return sb.toString();
     }
 }
