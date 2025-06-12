@@ -6,10 +6,8 @@ public class Solution {
         String str = sc.next();
         int n = sc.nextInt();
         
-        for(int i =0; i < n; i++){
+        for(int i = 0; i < n; i++){
             System.out.print(str);
         }
-        
-        sc.close();
     }
 }
