@@ -31,11 +31,7 @@ class Solution {
                 result = num1 - num2;
             }
             
-            if(result == num3){
-                answer[i] = "O";
-            } else {
-                answer[i] = "X";
-            }
+            answer[i] = (result == num3) ? "O" : "X";
         }
         
         return answer;
