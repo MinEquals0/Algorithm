@@ -1,17 +1,19 @@
 class Solution {
     public int[] solution(int[] num_list) {
-        int[] answer = new int[num_list.length + 1];
         int len = num_list.length;
-        int last = len-1;
+        int[] answer = new int[len + 1];
+        int idx = 0;
         
-        System.arraycopy(num_list, 0, answer, 0, num_list.length);
+        for(int i : num_list){
+            answer[idx] = i;
+            idx++;
+        }
         
-        if(num_list[last-1] < num_list[last]) {
-            int sub = num_list[last] - num_list[last-1];
-            answer[last+1] = sub;
+        if(num_list[len-1] > num_list[len-2]){
+            answer[len] = num_list[len-1] - num_list[len-2];
         } else {
-            int multi = num_list[last] * 2;
-            answer[last+1] = multi;
+            answer[len] = num_list[len-1] * 2;
+                        
         }
         
         return answer;
