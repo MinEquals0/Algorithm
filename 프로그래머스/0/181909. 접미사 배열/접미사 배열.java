@@ -12,5 +12,19 @@ class Solution {
         Arrays.sort(answer);
         
         return answer;
+
+
+        // 정렬 연습
+        List<String> list = new ArrayList<>();
+        
+        for(int i = 0; i < my_string.length(); i++){
+            list.add(my_string.substring(i));
+        }
+
+        // 람다식으로 정렬
+        Collections.sort(list, (a,b) -> a.compareTo(b));
+
+        // 리스트 -> 배열 변환
+        return list.toArray(new String[0]);
     }
 }
