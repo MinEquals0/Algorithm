@@ -9,7 +9,14 @@ class Solution {
         }
         
         int answer = sum % 9;
-        
+
+        // 오버 플로우
+        // try {
+        //     int num = Integer.parseInt(number); // 여기서 예외 발생
+        //     System.out.println("변환된 숫자: " + num);
+        // } catch (NumberFormatException e) {
+        //     System.out.println("오버플로우 발생! int 범위 초과: " + number);
+        // }
 
         return answer;
     }
