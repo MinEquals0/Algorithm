@@ -1,11 +1,12 @@
 class Solution {
     public String solution(String my_string, int[] index_list) {
-        StringBuilder answer = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         
-        for(int i : index_list){
-            answer.append(my_string.charAt(i));
+        for(int i = 0; i < index_list.length; i++){
+            int idx = index_list[i];
+            sb.append(my_string.charAt(idx));
         }
         
-        return answer.toString();
+        return sb.toString();
     }
 }
