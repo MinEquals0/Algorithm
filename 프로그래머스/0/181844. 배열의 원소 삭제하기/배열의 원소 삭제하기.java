@@ -20,6 +20,21 @@ class Solution {
         }
         
        // System.out.println(list);
+
+
+        // 방법 2.
+        // Set<Integer> set = new HashSet<>();
+        // for(int n : delete_list){
+        //     set.add(n);
+        // }
+        
+        // ArrayList<Integer> list = new ArrayList<>();
+        // for(int i : arr){
+        //     if(!set.contains(i)){
+        //         list.add(i);
+        //     }
+        // }
+        
         
         return list.stream().mapToInt(Integer::intValue).toArray();
     }
