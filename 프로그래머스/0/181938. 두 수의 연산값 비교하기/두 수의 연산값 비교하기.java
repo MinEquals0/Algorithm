@@ -3,6 +3,8 @@ class Solution {
         String s = "";
         s += a;
         s += b;
+        //  String s = String.valueOf(a) + b;
+        
         int sNum = Integer.parseInt(s);
         
         int num = 2 * a * b;
