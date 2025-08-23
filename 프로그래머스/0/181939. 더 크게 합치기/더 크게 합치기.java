@@ -18,5 +18,15 @@ class Solution {
         }
         
         return num1 > num2 ? num1 : num2;
+
+        // refactoring
+        // int num1 = a * (int)Math.pow(10, String.valueOf(b).length()) + b;
+        // int num2 = b * (int)Math.pow(10, String.valueOf(a).length()) + a;
+        
+        // if(num1 == num2){
+        //     return num1;
+        // }
+        
+        // return Math.max(num1, num2);
     }
 }
