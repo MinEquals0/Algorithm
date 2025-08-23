@@ -1,16 +1,22 @@
 class Solution {
     public int solution(int a, int b) {
-        String answer1 = String.valueOf(a) + String.valueOf(b);
-        String answer2 = String.valueOf(b) + String.valueOf(a);
+        String str1 = "";
         
-        int result1 = Integer.parseInt(answer1);
-        int result2 = Integer.parseInt(answer2);
+        str1 += a;
+        str1 += b;
         
-        if(result1 > result2){
-            return result1;
-        } else {
-            return result2;
+        String str2 = "";
+        
+        str2 += b;
+        str2 += a;
+        
+        int num1 = Integer.parseInt(str1);
+        int num2 = Integer.parseInt(str2);
+        
+        if(num1 == num2){
+            return num1;
         }
-  
+        
+        return num1 > num2 ? num1 : num2;
     }
-}  
+}
