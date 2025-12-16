@@ -3,7 +3,12 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] nums) {
+        // 1. 포켓몬 종류 : 3가지, 가질 수 있는 개수 : 2 => 2
+        // 2.           : 3    ,                : 3 => 3
+        // 3.           : 2    ,                : 3 => 2
         
+        // 가질 수 있는 개수 > 포켓몬 종류 : 포켓몬 종류 답
+        //                 <           : 가지는 개수 답
         
         HashMap<Integer, Integer> map = new HashMap<>();
         
@@ -20,7 +25,6 @@ class Solution {
         int totalSpecies = map.size();
         
         return totalSpecies > availableCnt ? availableCnt : totalSpecies;
-        
         
     }
 }
