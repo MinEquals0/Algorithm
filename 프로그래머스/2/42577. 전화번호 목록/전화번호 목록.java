@@ -2,25 +2,21 @@ import java.util.*;
 
 class Solution {
     public boolean solution(String[] phone_book) {
-       HashMap<String,Integer> map = new HashMap<>();
-        for (String num : phone_book){
-            if (!map.containsKey(num)){
-                map.put(num, 0);
-            } else{
-                return false;
+       Arrays.sort(phone_book);
+
+        boolean answer = true;
+
+        for(int i = 0; i < phone_book.length-1; i++){ 
+
+            boolean isPrefix = phone_book[i+1].startsWith(phone_book[i]);
+
+            if(isPrefix){
+                answer = false;
             }
+
         }
 
-        for (String phone : phone_book){
-            for (int i = 0 ; i < phone.length() ; i++){
-                if(map.containsKey(phone.substring(0, i))){
-                    return false;
-                }
-            }
-        }
-
-
-        return true;
+        return answer;
     }
 }
   
