@@ -1,20 +1,22 @@
-import java.util.*;
-
 class Solution {
     public int[] solution(int[] arr, int[][] queries) {
-        for(int[] q : queries){
-            int s = q[0];
-            int e = q[1];
-            int k = q[2];
-
-            for(int i = s; i <= e; i++){
-                if(i % k == 0){
-                    arr[i] += 1;
-                }
+        int[] answer = arr.clone();
+        
+        for(int i = 0; i < queries.length; i++){
+            int s = queries[i][0];
+            int e = queries[i][1];
+            int k = queries[i][2];
+           
+            for(int j = s; j <= e; j++){
+                               
+                if(j % k == 0){
+                    answer[j]++;
+                   
+                } 
             }
         }
-        return arr;
+        
+        
+        return answer;
     }
 }
-
-
