@@ -17,7 +17,16 @@ public class Main {
         System.out.println(numArr[1]);
 
         
-        //2. 정렬 없이
+        //2. 스트림
+        int[] numArr = Arrays.stream(br.readLine().split(" "))
+                             .mapToInt(Integer::parseInt)
+                             .toArray();
+
+        Arrays.sort(numArr);
+        System.out.println(numArr[1]);
+
+        
+        //3. 정렬 없이
         String[] arr = br.readLine().split(" ");
         int min1 = Integer.MAX_VALUE;
         int min2 = Integer.MAX_VALUE;
@@ -33,7 +42,7 @@ public class Main {
             }
         }
         System.out.println(min2);
-
+        
     }
-
 }
+
