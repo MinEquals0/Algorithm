@@ -1,17 +1,13 @@
-import java.util.ArrayList;
+import java.util.*;
 
 class Solution {
-    public int[] solution(int start_num, int end_num) {
+    public List<Integer> solution(int start_num, int end_num) {
+        List<Integer> result = new ArrayList<>();
         
-        int[] answer = new int[end_num - (start_num-1)];
-        for(int i = 0; i < answer.length; i++){
-            answer[i] = start_num;
-            start_num++;
-            
+        for (int i = start_num; i <= end_num; i++) {
+            result.add(i);
         }
-        return answer;
-       
+        
+        return result;
     }
 }
-
-
