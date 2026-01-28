@@ -1,23 +1,26 @@
 import java.io.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] arr = br.readLine().split(" ");
-        int num1 = Integer.parseInt(arr[0]);
-        int num2 = Integer.parseInt(arr[1]);
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        
+        long num1 = Long.parseLong(st.nextToken());
+        long num2 = Long.parseLong(st.nextToken());
         
         if(num1 > num2){
-            int temp = num1;
+            long temp = num1;
             num1 = num2;
             num2 = temp;
         }
         
-        int count = Math.max(0, num2 - num1 - 1);
+        long count = Math.max(0, num2 - num1 - 1);
         System.out.println(count);
         
-        for(int i = num1+1; i < num2; i++){
-            System.out.print(i + " ");
+        for(long i = num1+1; i < num2; i++){
+            if (i != num1 + 1) System.out.print(" ");
+            System.out.print(i);
         }
 
     }
