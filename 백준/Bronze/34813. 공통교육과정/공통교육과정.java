@@ -19,5 +19,22 @@ public class Main {
         }
 
 
+        // 2. switch
+        switch (str.charAt(0)){
+            case 'F':
+                System.out.println("Foundation");
+                break;
+            case 'C':
+                System.out.println("Claves");
+                break;
+            case 'V':
+                System.out.println("Veritas");
+                break;
+            case 'E':
+                System.out.println("Exploration");
+                break;
+        }
+
     }
+
 }
