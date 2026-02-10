@@ -35,6 +35,21 @@ public class Main {
                 break;
         }
 
+        
+        // 3. map
+        Map<Character, String> map = new HashMap<>();
+
+        map.put('F', "Foundation");
+        map.put('C', "Claves");
+        map.put('V', "Veritas");
+        map.put('E', "Exploration");
+
+        char subject = str.charAt(0);
+
+        System.out.println(map.get(subject));
+
+
     }
 
 }
+
