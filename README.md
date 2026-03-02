@@ -23,3 +23,15 @@ This repo contains my solutions to various algorithm problems from:
 
 ## 💻 Languages Used
 - Java  
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0876-middle-of-the-linked-list](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0876-middle-of-the-linked-list](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
+<!---LeetCode Topics End-->
