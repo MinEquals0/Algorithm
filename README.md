@@ -34,4 +34,16 @@ This repo contains my solutions to various algorithm problems from:
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0876-middle-of-the-linked-list](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0876-middle-of-the-linked-list/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0383-ransom-note](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0383-ransom-note](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0383-ransom-note](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 <!---LeetCode Topics End-->
