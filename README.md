@@ -46,4 +46,12 @@ This repo contains my solutions to various algorithm problems from:
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0383-ransom-note](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 <!---LeetCode Topics End-->
