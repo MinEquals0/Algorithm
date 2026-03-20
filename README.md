@@ -37,6 +37,7 @@ This repo contains my solutions to various algorithm problems from:
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0383-ransom-note](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 ## String
 | Problem Name | Difficulty |
@@ -49,6 +50,7 @@ This repo contains my solutions to various algorithm problems from:
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
