@@ -56,4 +56,8 @@ This repo contains my solutions to various algorithm problems from:
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0643-maximum-average-subarray-i/) | Easy |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0009-palindrome-number](https://github.com/MinEquals0/Algorithm/tree/main/LeetCode/Easy/0009-palindrome-number/) | Easy |
 <!---LeetCode Topics End-->
